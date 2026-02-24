@@ -52,13 +52,23 @@ Algorithm 4: Reverse of a Number
 8. Display reversed number
 9. Stop
 
-Algorithm 5: Palindrome Check
+Algorithm 5(1): Palindrome Check
 1. Start
 2. Read number n and store copy temp = n
 3. Reverse the number using while loop
 4. Compare rev with temp
 5. Display whether palindrome or not
 6. Stop
+
+Algorithm 5(2): Palindrome Check (String)
+1. Initialize string s = "madam".
+2. Initialize indices i = 0 and j = len(s) - 1 using len().
+3. Set flag variable is_pelindrome = True.
+4. Compare characters using while i < j.
+5. Check condition using if s[i] != s[j].
+6. Update indices using i += 1 and j -= 1.
+7. Exit loop using break if mismatch occurs.
+8. Display result using if is_pelindrome and print().
 
 Algorithm 6: Count Number of Digits
 1. Start
